@@ -182,7 +182,7 @@ In the static form example, the Plugin you have created already was created as a
 A Plugin's default export is a function which takes the same context parameter that a normal Pages Functions handler is given.
 
 ```typescript
-import staticFormInterceptorPlugin from "@cloudflare/static-form-interceptor";
+import staticFormInterceptorPlugin from "@cloudflare/pages-plugin-static-forms";
 
 export const onRequest = (context) => {
   return staticFormInterceptorPlugin({
